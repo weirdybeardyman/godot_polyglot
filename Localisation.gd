@@ -2,7 +2,7 @@ extends Control
 
 const path = "res://Localisation/"
 
-var defaultLang = "enUS_enGB.json"#["English","enUS_enGB.json"]
+var defaultLang = "enUS_enGB.json"
 var selectedLang
 
 onready var languages = loadLanguages()
